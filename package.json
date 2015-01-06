@@ -1,0 +1,22 @@
+{
+  "name": "Travistest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kerkerj/TravisTest.git"
+  },
+  "author": "kerkerj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerkerj/TravisTest/issues"
+  },
+  "homepage": "https://github.com/kerkerj/TravisTest",
+  "dependencies": {
+    "mocha": "^2.1.0"
+  }
+}
