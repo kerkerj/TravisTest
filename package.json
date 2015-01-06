@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "url": "https://github.com/kerkerj/TravisTest/issues"
   },
   "homepage": "https://github.com/kerkerj/TravisTest",
-  "dependencies": {
-    "mocha": "^2.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
   }
 }
