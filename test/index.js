@@ -1,6 +1,6 @@
 'use strict';
 
-var lib = require('../lib');
+var lib = require('../lib/utils');
 var should = require('should');
 
 describe('Test library', function() {
