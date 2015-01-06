@@ -5,3 +5,7 @@ npm-debug.log
 .idea
 
 coverage
+
+RunCoveralls.sh
+
+.coveralls.yml
