@@ -16,4 +16,17 @@ describe('Test library', function() {
 
         done();
     });
+
+    it('should return multiple result of a and b', function(done) {
+        var sum = lib.mutiply(5, 10);
+        sum.should.equal(50);
+
+        sum = lib.mutiply("12", "2225");
+        (sum === null).should.be.true;
+
+        sum = lib.mutiply("12", 2225);
+        (sum === null).should.be.true;
+
+        done();
+    });
 });
